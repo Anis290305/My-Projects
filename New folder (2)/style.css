@@ -1,0 +1,349 @@
+.container-fluid {
+    background-color: black;
+    opacity: 0.8;
+}
+
+.nav-link {
+    color: white;
+    font-size: 14px;
+    margin-right: 12px;
+    opacity: 0.7;
+    justify-content: center;
+}
+
+.nav-link:hover {
+    color: white;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.fa-apple {
+    color: white;
+    margin-left: 160px;
+}
+
+.fa-magnifying-glass,
+.fa-bag-shopping {
+    color: white;
+}
+
+.carousel-caption {
+    color: white;
+    font-size: 15px;
+}
+
+.carousel-caption button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.carousel-inner {
+    height: 600px;
+}
+
+.carousel-inner2 img {
+    margin-top: 10px;
+    height: 300px;
+}
+
+.one {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.one h1,
+.one p {
+    font-size: 25px;
+}
+
+.one .btn1 {
+    background-color: cornflowerblue;
+    color: white;
+    border: 2px solid cornflowerblue;
+    padding: 10px 10px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.one .btn2 {
+    background-color: white;
+    color: cornflowerblue;
+    border: 2px solid cornflowerblue;
+    padding: 10px 10px;
+    border-radius: 30px;
+    margin-left: 5px;
+}
+
+.one .btn2:hover {
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+}
+
+.one .btn1:hover {
+    cursor: pointer;
+}
+
+.carousel-inner3 img {
+    height: 300px;
+}
+
+.first {
+    color: cornflowerblue;
+}
+
+.Second {
+    color: purple;
+}
+
+.Third {
+    color: purple;
+}
+
+.Fourth {
+    color: orange;
+}
+
+.carousel-inner3 p {
+    font-size: 18px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    z-index: 2;
+    color: white;
+}
+
+.carousel-inner4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 600px);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.carousel-inner4 .item {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.carousel-inner4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+}
+
+.carousel-inner4 .content {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+.carousel-inner4 .content h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.carousel-inner4 .content p {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.carousel-inner4 .content .h1 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.carousel-inner4 .content .p1 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+.carousel-inner4 .content .btn-1 {
+    background-color: cornflowerblue;
+    color: white;
+    border: cornflowerblue;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 3px;
+}
+
+
+.carousel-inner4 .content .btn-2 {
+    background-color: white;
+    color: cornflowerblue;
+    border: cornflowerblue;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 3px;
+}
+
+
+.carousel-inner4 .content .btn-3 {
+    background-color: cornflowerblue;
+    color: white;
+    border: cornflowerblue;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 3px;
+}
+
+
+.carousel-inner4 .content .btn-5 {
+    background-color: cornflowerblue;
+    color: white;
+    border: cornflowerblue;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 3px;
+}
+
+
+.carousel-inner4 .content .btn-6 {
+    background-color: white;
+    color: cornflowerblue;
+    border: cornflowerblue;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 3px;
+}
+
+
+.carousel-inner4 .content .btn-7 {
+    background-color: cornflowerblue;
+    color: white;
+    border: cornflowerblue;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 3px;
+}
+
+.carousel-inner4 .content .btn-8 {
+    background-color: black;
+    color: cornflowerblue;
+    border-color: white;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 3px;
+}
+
+
+.carousel-inner4 .content .btn-4 {
+    background-color: white;
+    color: cornflowerblue;
+    border: cornflowerblue;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 3px;
+}
+
+.carousel-inner4 .content .btn-9 {
+    background-color: cornflowerblue;
+    color: white;
+    border: cornflowerblue;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 3px;
+}
+.carousel-inner4 .content .btn-10 {
+    background-color: cornflowerblue;
+    color: white;
+    border: cornflowerblue;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 3px;
+}
+
+.carousel-inner4 .content .btn-11 {
+    background-color: white;
+    color: cornflowerblue;
+    border: cornflowerblue;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 3px;
+}
+
+
+.carousel-inner4 .content .btn-2:hover{
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+}
+
+.carousel-inner4 .content .btn-4:hover{
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+}
+
+.carousel-inner4 .content .btn-6:hover{
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+}
+
+.carousel-inner4 .content .btn-8:hover{
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+}
+
+.carousel-inner4 .content .btn-11:hover{
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+}
+.carousel-inner4 .bottom-content {
+  top: auto;
+  bottom: 20px;
+}
+
+.paragraph p {
+  font-size: 13px;
+  margin-top: 20px;
+  margin-right: 150px;
+  margin-left: 150px;
+  color: grey;
+}
